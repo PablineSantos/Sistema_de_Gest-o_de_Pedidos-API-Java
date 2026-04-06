@@ -216,7 +216,7 @@ Restrições:
 
 ## 🛠️ Tecnologias Utilizadas
 
-* Java 17+
+* Java 21+
 * Spring Boot
 * Spring Data JPA
 * Hibernate
@@ -284,15 +284,6 @@ mvn spring-boot:run
 ```
 http://localhost:8080
 ```
-
----
-
-## 🧪 Testes
-
-Ferramentas recomendadas:
-
-* Postman
-* Insomnia
 
 ---
 
