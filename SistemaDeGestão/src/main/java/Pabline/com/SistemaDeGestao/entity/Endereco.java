@@ -26,7 +26,7 @@ public class Endereco {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cliente_id")
-    @JsonBackReference
+    @JsonBackReference("cliente-endereco")
     private Cliente cliente;
 
     @OneToOne(mappedBy = "endereco",fetch= FetchType.LAZY)

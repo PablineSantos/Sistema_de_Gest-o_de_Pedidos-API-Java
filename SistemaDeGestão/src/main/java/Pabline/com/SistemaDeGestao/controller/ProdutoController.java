@@ -34,7 +34,7 @@ public class ProdutoController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Produto> atualizar(@PathVariable Long id, @RequestBody Produto produto){
-        return ResponseEntity.ok(produtoService.atualizarProduto(produto));
+        return ResponseEntity.ok(produtoService.atualizarProduto(id,produto));
     }
 
     @DeleteMapping("/{id}")

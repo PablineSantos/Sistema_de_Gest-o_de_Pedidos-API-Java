@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3acf41d5-e9d4-4e8c-b6b6-11d282d3fab5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/PedidoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/EnderecoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/ItemPedidoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/PedidoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/ProdutoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ClienteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/PedidoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flowset-studio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/ItemPedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaDeGestão/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,10 @@
     &quot;accountId&quot;: &quot;7d3bb0ff-75c8-4824-a5b9-5a2ec89c792b&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -64,7 +64,7 @@
     <urls />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="AISelfReview" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -80,10 +80,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SistemaDeGestaoApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;io.bpmstudio.studio.intellij.ui.cubatree.toolwindow.ToolWindowOpener.firstProjectStart&quot;: &quot;false&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -127,11 +133,23 @@
       <workItem from="1774995517168" duration="7712000" />
       <workItem from="1775306614073" duration="1912000" />
       <workItem from="1775308585425" duration="4659000" />
-      <workItem from="1775480762193" duration="9539000" />
+      <workItem from="1775480762193" duration="10301000" />
+      <workItem from="1775497462869" duration="1518000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

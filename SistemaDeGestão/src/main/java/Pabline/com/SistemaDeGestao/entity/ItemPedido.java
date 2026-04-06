@@ -14,14 +14,14 @@ public class ItemPedido {
     private Long id;
 
     @Column
-    private int quantidade;
+    private Integer quantidade;
 
     @Column
-    private  double precoUnitario;
+    private  Double precoUnitario;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "pedido_id")
-    @JsonBackReference
+    @JsonBackReference ("pedido-item")
     private Pedido pedido;
 
     @ManyToOne(fetch = FetchType.LAZY)
@@ -32,7 +32,7 @@ public class ItemPedido {
     public ItemPedido() {
     }
 
-    public ItemPedido(int datequantidade, double precoUnitario, Pedido pedido, Produto produto) {
+    public ItemPedido(Integer datequantidade, Double precoUnitario, Pedido pedido, Produto produto) {
         this.quantidade = datequantidade;
         this.precoUnitario = precoUnitario;
         this.pedido = pedido;
@@ -47,7 +47,7 @@ public class ItemPedido {
         this.id = id;
     }
 
-    public int getQuantidade() {
+    public Integer getQuantidade() {
         return quantidade;
     }
 
@@ -55,7 +55,7 @@ public class ItemPedido {
         this.quantidade = datequantidade;
     }
 
-    public double getPrecoUnitario() {
+    public Double getPrecoUnitario() {
         return precoUnitario;
     }
 

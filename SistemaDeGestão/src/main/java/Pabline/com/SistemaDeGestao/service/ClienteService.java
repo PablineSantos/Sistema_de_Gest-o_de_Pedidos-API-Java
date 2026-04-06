@@ -54,8 +54,8 @@ public class ClienteService {
         return clienteRepository.findAll();
     }
 
-    public Cliente atualizarCliente (Cliente clienteAtualizar){
-        Cliente cliente = clientePorId(clienteAtualizar.getId());
+    public Cliente atualizarCliente ( long id,Cliente clienteAtualizar){
+        Cliente cliente = clientePorId(id);
         if (clienteAtualizar.getNome() != null && !clienteAtualizar.getNome().isBlank()){
             cliente.setNome(clienteAtualizar.getNome());
         }

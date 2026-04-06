@@ -90,7 +90,7 @@ public class PedidoService {
         pedido.setStatus(Status.CANCELADO);
         pedidoRepository.save(pedido);
     }
-    public Pedido atualizarStatus(Status status,Long id){
+    public Pedido atualizarStatus(Long id, Status status){
         Pedido pedido= pedidoPorId(id);
         if (pedido.getStatus() == Status.CRIADO && status == Status.PAGO) {
             pedido.setStatus(status);

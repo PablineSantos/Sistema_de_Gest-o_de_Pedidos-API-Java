@@ -43,8 +43,8 @@ public class ProdutoService {
         return produtoRepository.findAll();
     }
 
-    public Produto atualizarProduto(Produto produtoAtualizado){
-        Produto produto = produtoPorId(produtoAtualizado.getId());
+    public Produto atualizarProduto(Long id ,Produto produtoAtualizado){
+        Produto produto = produtoPorId(id);
         if(produtoAtualizado.getNome() != null && !produtoAtualizado.getNome().isBlank()){
             produto.setNome(produtoAtualizado.getNome());
         }

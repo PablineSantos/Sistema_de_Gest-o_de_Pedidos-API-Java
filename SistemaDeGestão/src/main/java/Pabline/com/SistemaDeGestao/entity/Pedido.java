@@ -28,7 +28,7 @@ public class Pedido {
 
     @ManyToOne (fetch = FetchType.LAZY)
     @JoinColumn (name = "cliente_id")
-    @JsonBackReference
+    @JsonBackReference ("cliente-pedido")
     private Cliente cliente;
 
     @OneToOne
@@ -37,7 +37,7 @@ public class Pedido {
     private Endereco endereco;
 
     @OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL, orphanRemoval = true)
-    @JsonManagedReference
+    @JsonManagedReference("pedido-item")
     private List<ItemPedido> itemPedidos = new ArrayList<>();
 
     public Pedido() {
