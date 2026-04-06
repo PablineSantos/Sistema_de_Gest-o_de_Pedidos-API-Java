@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3acf41d5-e9d4-4e8c-b6b6-11d282d3fab5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/controller/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/ItemPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/entity/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/EnderecoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/ItemPedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/repository/ProdutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaDeGestão/src/main/java/Pabline/com/SistemaDeGestao/service/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flowset-studio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PablineSantos&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PablineSantos/Sistema_de_Gest-o_de_Pedidos-API-Java.git&quot;,
+    &quot;accountId&quot;: &quot;7d3bb0ff-75c8-4824-a5b9-5a2ec89c792b&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3BjHMveQ0BDEMA8JWLTf5E8KAqm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;io.bpmstudio.studio.intellij.ui.cubatree.toolwindow.ToolWindowOpener.firstProjectStart&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pabli/Documents/Sistema_de_Gest-o_de_Pedidos-API-Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="SistemaDeGestaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SistemaDeGestao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Pabline.com.SistemaDeGestao.SistemaDeGestaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3acf41d5-e9d4-4e8c-b6b6-11d282d3fab5" name="Changes" comment="" />
+      <created>1774995515712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774995515712</updated>
+      <workItem from="1774995517168" duration="7712000" />
+      <workItem from="1775306614073" duration="1912000" />
+      <workItem from="1775308585425" duration="4659000" />
+      <workItem from="1775480762193" duration="9539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
